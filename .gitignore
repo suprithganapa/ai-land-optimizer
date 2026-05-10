@@ -1,0 +1,43 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/engine/__pycache__/
+backend/routers/__pycache__/
+backend/data/price_model.pkl
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# Large data files (download separately from Kaggle)
+backend/data/Bengaluru_House_Data.csv
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.production

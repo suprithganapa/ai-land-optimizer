@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+shapely
+pyproj
+requests
+numpy
+scipy
+scikit-learn
+scikit-optimize
+networkx
+pymoo
+ortools
+polars
+h3
+python-multipart
+pandas
+joblib

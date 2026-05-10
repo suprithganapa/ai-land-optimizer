@@ -1,0 +1,126 @@
+area_name,lat,lng,zone_type,avg_rate_per_m2,min_rate,max_rate,tier,listing_count
+Cunningham Road,12.98,77.595,commercial,209675,205596,229336,premium,9
+2nd Stage Nagarbhavi,12.96,77.507,residential,201825,165048,215280,premium,16
+8th block Koramangala,12.9352,77.6245,residential,152490,128999,175518,premium,5
+Rajaji Nagar,12.99,77.553,residential,150302,121182,172029,premium,75
+Malleshwaram,13.0035,77.568,residential,134550,107640,150657,premium,40
+4th Block Koramangala,12.9352,77.6245,residential,131804,112424,151224,premium,5
+Jayanagar,12.9308,77.5838,residential,130420,110752,132230,premium,5
+1st Block Jayanagar,12.9308,77.5838,residential,128553,109376,160268,premium,10
+5th Block Hbr Layout,13.03,77.645,residential,123601,57697,183885,premium,8
+Banashankari Stage II,12.9255,77.5468,residential,123273,94926,139932,premium,10
+Chamrajpet,12.963,77.565,residential,116548,76344,165253,premium,10
+Richmond Town,12.9632,77.6051,commercial,109449,106515,124503,premium,5
+Frazer Town,12.99,77.62,commercial,106857,96335,115805,premium,23
+1st Block Koramangala,12.9352,77.6245,residential,101914,83678,179400,premium,6
+Koramangala,12.9352,77.6245,residential,98801,84217,130519,premium,50
+Hebbal Kempapura,13.035,77.597,residential,98751,85683,111047,premium,24
+Judicial Layout,12.92,77.575,residential,98142,71526,146510,premium,9
+Sector 1 HSR Layout,12.9116,77.6389,residential,97999,89501,215280,premium,6
+4th T block Jayanagar,12.9308,77.5838,residential,91908,83262,133269,premium,5
+Sector 7 HSR Layout,12.9116,77.6389,residential,91499,90369,98181,premium,9
+1st Phase JP Nagar,12.9102,77.5857,residential,91037,80730,103690,premium,16
+Kammanahalli,13.01,77.66,residential,90725,72657,119600,premium,11
+Domlur,12.9609,77.6391,residential,88419,83519,99852,premium,14
+Konanakunte,12.9,77.565,residential,86004,68093,109503,premium,9
+HBR Layout,13.03,77.645,residential,85447,59352,107640,premium,14
+Hennur Gardens,13.0481,77.6388,residential,83078,73051,84823,premium,5
+Nagarbhavi,12.96,77.507,residential,82011,53753,162536,premium,43
+2nd Phase JP Nagar,12.9102,77.5857,residential,80730,73349,152091,premium,5
+Nagavarapalya,13.05,77.62,residential,80157,70321,87028,premium,9
+Old Airport Road,12.96,77.66,commercial,79630,76428,80603,premium,23
+Hebbal,13.035,77.597,residential,76559,66625,84488,premium,123
+Shivaji Nagar,12.986,77.605,commercial,75792,61340,100672,premium,9
+6th Phase JP Nagar,12.9,77.585,residential,74002,64622,97839,mid,15
+Vijayanagar,12.9718,77.5272,residential,71920,66091,83800,mid,28
+7th Phase JP Nagar,12.89,77.58,residential,71760,51280,76886,mid,107
+Harlur,12.905,77.67,residential,71041,65705,75649,mid,55
+Bannerghatta,12.89,77.597,residential,69406,64799,88356,mid,12
+Lakshminarayana Pura,12.97,77.653,residential,69178,68127,74630,mid,26
+Jakkur Plantation,13.07,77.6,residential,68880,68707,79866,mid,5
+Tumkur Road,13.05,77.52,industrial,68172,58813,70913,mid,23
+Panathur,12.935,77.71,residential,67757,58327,71573,mid,35
+Jakkur,13.07,77.6,residential,67275,62161,72029,mid,49
+Vidyaranyapura,13.07,77.54,residential,67275,51898,93983,mid,29
+Sector 2 HSR Layout,12.9116,77.6389,residential,66703,59980,82087,mid,10
+Hosur Road,12.87,77.65,industrial,65106,48429,78805,mid,34
+Brookefield,12.98,77.75,residential,64432,55635,76185,mid,33
+Banashankari,12.9255,77.5468,residential,63599,50346,68687,mid,52
+Hennur Road,13.0481,77.6388,residential,63469,57178,72046,mid,106
+Banashankari Stage III,12.9255,77.5468,residential,63331,49581,109235,mid,20
+JP Nagar,12.9102,77.5857,residential,62431,49945,75471,mid,49
+Padmanabhanagar,12.925,77.553,residential,61942,57049,92368,mid,18
+Narayanapura,13.055,77.64,residential,61652,58999,73022,mid,8
+Old Madras Road,12.99,77.68,residential,61539,51805,68675,mid,49
+Hoodi,12.9929,77.7201,residential,61457,56422,72437,mid,60
+Thanisandra,13.0614,77.6262,residential,61426,49002,69017,mid,164
+Sarjapur  Road,12.907,77.686,residential,61358,50750,75218,mid,278
+Whitefield,12.9698,77.75,residential,60243,50400,71364,mid,376
+Ramamurthy Nagar,13.01,77.67,residential,60095,45899,78338,mid,50
+Yeshwanthpur,13.02,77.55,commercial,59647,59291,78833,mid,59
+Hulimavu,12.895,77.595,residential,59512,49918,68190,mid,35
+Marathahalli,12.9591,77.7001,residential,59202,52669,69683,mid,121
+TC Palaya,13.005,77.76,residential,59202,59202,65780,mid,42
+BTM Layout,12.9166,77.6101,residential,59128,54379,64178,mid,10
+Subramanyapura,12.91,77.555,residential,58791,51568,63642,mid,29
+Nagadevanahalli,13.2448,77.7143,residential,58486,56424,87137,mid,6
+Kalyan nagar,13.03,77.65,residential,58402,52426,71053,mid,13
+Bellandur,12.9257,77.6757,residential,58335,52332,66399,mid,66
+Bannerghatta Road,12.89,77.597,residential,57585,51365,62890,mid,105
+Banaswadi,13.0197,77.6539,residential,57566,53820,71488,mid,11
+Shampura,13.0,77.65,residential,56921,51308,71972,mid,9
+Arekere,12.898,77.605,residential,56254,52994,62471,mid,10
+Haralur Road,12.8968,77.6791,residential,56035,41469,62567,mid,99
+Kadugodi,12.9834,77.7832,residential,55868,46762,66832,mid,29
+CV Raman Nagar,12.984,77.664,residential,55329,49680,73803,mid,29
+Amruthahalli,13.05,77.575,residential,55315,49335,68028,mid,16
+Banashankari Stage VI,12.9255,77.5468,residential,54768,54142,157872,mid,10
+Basaveshwara Nagar Yelahanka,13.1007,77.5963,residential,54461,51201,128311,mid,5
+Yelahanka,13.1007,77.5963,residential,54370,46873,62495,mid,149
+5th Phase JP Nagar,12.905,77.587,residential,54191,50602,60078,mid,27
+Devanahalli,13.2448,77.7143,residential,54131,49715,58729,mid,32
+Nagavara,13.05,77.62,residential,53906,46230,79733,mid,11
+Budigere,13.09,77.78,residential,53749,52745,55925,mid,38
+HSR Layout,12.9116,77.6389,residential,53349,43434,63443,mid,39
+9th Phase JP Nagar,12.9102,77.5857,residential,53215,47338,63623,mid,29
+Mysore Road,12.95,77.5,commercial,53172,49940,64159,mid,33
+Kothanur,13.065,77.595,residential,53100,52391,63141,mid,46
+Yelahanka New Town,13.1007,77.5963,residential,52760,42133,56932,mid,28
+Choodasandra,12.91,77.72,residential,52270,48953,56138,mid,19
+"Hoodi Circle,",12.9929,77.7201,residential,52201,51354,53404,mid,5
+B Narayanapura,13.055,77.64,residential,51709,50059,53667,mid,5
+Begur,12.865,77.615,residential,51656,44504,53589,mid,10
+Kanakapura,12.91,77.575,residential,50603,37674,55676,mid,31
+ITPL,12.986,77.748,residential,50340,46624,59604,mid,8
+Hennur,13.0481,77.6388,residential,49317,45898,51961,mid,37
+Bommanahalli,12.898,77.638,industrial,49180,40690,56588,mid,23
+8th Phase JP Nagar,12.88,77.575,residential,48432,43047,60105,mid,39
+Electronic City,12.8399,77.677,industrial,48378,35511,56666,mid,213
+Doddakammanahalli,13.01,77.66,residential,47365,45656,51046,mid,5
+Gottigere,12.875,77.595,residential,46934,38916,50916,mid,32
+Varthur,12.9392,77.7482,residential,46838,40514,61795,mid,48
+KR Puram,13.0007,77.6929,residential,46800,42253,63401,mid,63
+Kengeri,12.9063,77.4822,residential,45734,39380,52620,mid,50
+Kaggadasapura,13.0,77.675,residential,45707,42154,51069,mid,44
+Horamavu Agara,13.031,77.653,residential,45605,40332,52038,mid,28
+Kengeri Satellite Town,12.9063,77.4822,residential,45262,38128,53193,mid,28
+Varthur Road,12.9392,77.7482,residential,45252,32923,49865,mid,9
+Gunjur,12.91,77.75,residential,45156,40758,49497,mid,14
+Horamavu Banaswadi,13.031,77.653,residential,43884,42834,49970,mid,18
+Uttarahalli,12.89,77.545,residential,43686,41839,46827,mid,130
+Kothannur,13.065,77.595,residential,43048,38416,48195,mid,18
+Sarjapur,12.907,77.686,residential,40902,37449,53543,mid,57
+Begur Road,12.865,77.615,residential,39828,38750,41980,affordable,58
+Gunjur Palya,12.91,77.75,residential,39340,33344,45527,affordable,6
+Hoskote,13.0712,77.7988,residential,39065,33678,48623,affordable,14
+Channasandra,13.01,77.71,residential,38719,36054,45527,affordable,26
+Banashankari Stage V,12.9255,77.5468,residential,38655,33910,45229,affordable,8
+Channasandra Layout,13.01,77.71,residential,38568,35766,50074,affordable,5
+Anjanapura,12.875,77.56,residential,38567,37029,50256,affordable,10
+2nd Phase Judicial Layout,12.92,77.575,residential,37674,37674,46124,affordable,9
+Sarjapura - Attibele Road,12.778,77.764,residential,36538,34401,38848,affordable,11
+Anekal,12.713,77.696,residential,35753,32292,41214,affordable,26
+Dommasandra,12.89,77.74,residential,32823,30910,41549,affordable,9
+Electronic City Phase II,12.8299,77.677,industrial,32292,31086,49014,affordable,93
+Attibele,12.778,77.764,residential,31975,29606,41021,affordable,28
+Chandapura,12.83,77.685,residential,29063,27452,33581,affordable,72
