@@ -9,12 +9,18 @@ def convert_to_meters(geojson_polygon):
     avg_lng    = sum(c[0] for c in coords) / len(coords)
     utm_zone   = int((avg_lng + 180) / 6) + 1
     hemisphere = "north" if avg_lat >= 0 else "south"
-    utm_crs    = f"+proj=utm +zone={utm_zone} +{hemisphere} +ellps=WGS84"
+    utm_crs    = f"+proj=utm +zone={utm_zone} +{hemisphere} +ellps=WGS84 +units=m"
 
     fwd = Transformer.from_crs("EPSG:4326", utm_crs, always_xy=True)
 
     shapely_polygon = shape(geojson_polygon)
     metric_polygon  = transform(fwd.transform, shapely_polygon)
+
+    # Safety: ensure metric coords are plausible UTM values (100k–900k range)
+    bounds = metric_polygon.bounds
+    if not (100_000 < bounds[0] < 900_000 and 100_000 < bounds[1] < 10_000_000):
+        print(f"  ⚠️  UTM bounds suspicious: {bounds} — check input coordinates")
+
     setback_polygon = metric_polygon.buffer(-3)
 
     return {
@@ -46,7 +52,7 @@ def calculate_slope_risk(elevation_data):
 def get_inverse_transformer(centroid_lat, centroid_lng):
     utm_zone   = int((centroid_lng + 180) / 6) + 1
     hemisphere = "north" if centroid_lat >= 0 else "south"
-    utm_crs    = f"+proj=utm +zone={utm_zone} +{hemisphere} +ellps=WGS84"
+    utm_crs    = f"+proj=utm +zone={utm_zone} +{hemisphere} +ellps=WGS84 +units=m"
     return Transformer.from_crs(utm_crs, "EPSG:4326", always_xy=True)
 
 
@@ -98,9 +104,11 @@ def convert_layout_to_latlng(layout_data: dict, centroid_lat: float, centroid_ln
     converted_plots = convert_features(layout_data.get("plots", []))
     converted_parks = convert_features(layout_data.get("parks", []))
     converted_roads = convert_features(layout_data.get("roads", []))
+    converted_inst  = convert_features(layout_data.get("inst_blocks", []))
 
     print(f"  ✅ Converted: {len(converted_plots)} plots, "
-          f"{len(converted_parks)} parks, {len(converted_roads)} roads")
+          f"{len(converted_parks)} parks, {len(converted_roads)} roads, "
+          f"{len(converted_inst)} inst")
 
     # Validate first plot coordinate is near centroid
     if converted_plots:
@@ -117,8 +125,9 @@ def convert_layout_to_latlng(layout_data: dict, centroid_lat: float, centroid_ln
 
     return {
         **layout_data,
-        "plots":    converted_plots,
-        "parks":    converted_parks,
-        "roads":    converted_roads,
-        "entrance": entrance_lnglat,
+        "plots":       converted_plots,
+        "parks":       converted_parks,
+        "inst_blocks": converted_inst,
+        "roads":       converted_roads,
+        "entrance":    entrance_lnglat,
     }

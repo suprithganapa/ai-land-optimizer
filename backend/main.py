@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import zoning, layout, export
+from routers import zoning, layout, export, annotations
 
 app = FastAPI(
     title="LandAI Optimizer API",
     description="AI-Powered Residential Land Layout Generator",
-    version="1.0.0",
+    version="2.0.0",
 )
 
 app.add_middleware(
@@ -16,14 +16,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(zoning.router,  prefix="/api", tags=["Zoning"])
-app.include_router(layout.router,  prefix="/api", tags=["Layout"])
-app.include_router(export.router,  prefix="/api", tags=["Export"])
+app.include_router(zoning.router,       prefix="/api", tags=["Zoning"])
+app.include_router(layout.router,       prefix="/api", tags=["Layout"])
+app.include_router(export.router,       prefix="/api", tags=["Export"])
+app.include_router(annotations.router,  prefix="/api", tags=["Annotations"])
+
 
 @app.get("/")
 def root():
-    return {"status": "LandAI Optimizer API running ✅", "version": "1.0.0"}
+    return {"status": "LandAI Optimizer API running", "version": "2.0.0"}
+
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "version": "1.0.0"}
+    return {"status": "ok", "version": "2.0.0"}

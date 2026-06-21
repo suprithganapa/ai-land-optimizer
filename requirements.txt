@@ -16,3 +16,4 @@ python-multipart
 pandas
 joblib
 reportlab
+ezdxf
