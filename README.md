@@ -147,4 +147,7 @@ Key contributions:
 
 ## Author
 
-**Suprith G B** · RVCE Bengaluru · [suprithgb2005@gmail.com](mailto:suprithgb2005@gmail.com)
+**Suprith G B** · RVCE Bengaluru · [suprithgb.cs23@rvce.edu.in](mailto:suprithgb.cs23@rvce.edu.in)
+**Adhya S Niranjan** · RVCE Bengaluru · [adhyasniranjan.cs23@rvce.edu.in](mailto:adhyasniranjan.cs23@rvce.edu.in)
+**Rayala Yuvaraj Vaishnav** · RVCE Bengaluru · [rayalayuvarajv.ai23@rvce.edu.in](mailto:rayalayuvarajv.ai23@rvce.edu.in)
+**Vineet Raj** · RVCE Bengaluru · [vineetraj.ai23@rvce.edu.in](mailto:vineetraj.ai23@rvce.edu.in)
